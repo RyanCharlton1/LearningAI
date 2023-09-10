@@ -10,7 +10,7 @@ For this method A will be a set of features, for $A=\set{a_0,a_1...a_n}$
 $P(B|\set{a_0,a_1...a_n}) = \frac{P(a_0|B)P(a_1|B)...P(a_n|B)P(B)}{P(a_0)P(a_1)P(a_n)}$
 
 ### Method
-The method makes the assumption that each feature of a entry has a equal and independant effect on the outcome. Strictly this is never true but in practice the relationships between features are so complex that it works.
+The method makes the assumption that each feature of a entry has a equal and independant effect on the outcome. Strictly this is never true but in practice the relationships between features are so complex that it works, this assumption is why it's naive.
 
 The method calculates the chances for each of the feature's possibilities given the features you have and chooses the most likely. Because the features given are the same for comparisons for a entry we can ignore the denominator of the Bayes theorem as it's going to be the same.
 
