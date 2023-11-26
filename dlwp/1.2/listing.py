@@ -8,6 +8,7 @@ import numpy as np
 
 network = models.Sequential()
 network.add(layers.Dense(512, activation='relu', input_shape=(28 * 28,)))
+network.add(layers.Dense(512, activation='relu'))
 network.add(layers.Dense(10, activation='softmax'))
 
 network.compile(optimizer='rmsprop',

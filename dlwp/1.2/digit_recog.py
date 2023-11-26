@@ -17,7 +17,7 @@ def mouse_call(event, x, y, flags, param):
         held = False
     # if held draw a circle around the cursor
     if held :
-        cv.circle(img, (x,y), 10, 1, -1)
+        cv.circle(img, (x,y), 7, 1, -1)
 
     # Evaluate the picture
     if event == cv.EVENT_RBUTTONDOWN:
