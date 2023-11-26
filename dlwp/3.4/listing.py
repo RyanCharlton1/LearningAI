@@ -74,4 +74,7 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 
-plt.show()
+#plt.show()
+
+print(model.predict(x_test))
+print(x_test.shape)

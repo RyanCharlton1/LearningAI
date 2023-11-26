@@ -7,8 +7,14 @@ Without an activation function the outputs can only ever be linear and thus a nn
 Optimizer fucntions
 
 Network topologies
+When there's little tarining data it's preferable to use a small network and kfolds to avoid overfitting.
 
-loss funcitons
+loss funcitons:
+regression:
+mean average error
+
+binary classification:
+cross-entropy
 
 Cross entropy:
 Entropy is the measure of uncertainty, calculated with the base 2 logarithm it tells how many bits are needed to represent the information.
